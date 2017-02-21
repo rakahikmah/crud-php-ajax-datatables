@@ -1,0 +1,56 @@
+
+nama table fakultas
+atribut
+1.kd_fakultas char(3) PK
+2.nm_fakultas varchar(40)
+
+Ilmu Komputer
+Ilmu Komunikasi
+Teknik
+Manajemen Dan Bisnis
+Desain Seni Dan Kreatif 
+Psikologi
+
+
+nama table jurusan
+atribut 
+1.kd_jurusan int(3) PK
+2.nm_jurusan varchar (50)
+3.kd_fakultas (merujuk pada table fakultas) char(3) FK
+
+1.Ilmu Komputer
+  -Sistem informasi
+  -Teknik informatika
+2.Ilmu Komunikasi
+  -Public Relations
+  -Broadcasting
+3.Teknik
+  -teknik industri
+  -teknik elektro
+  -teknik sipil
+  -teknik arsitektur
+  -teknik mesin
+4.Manajemen Bisnis
+  -Akutansi
+  -manajemen
+5.Psikologi
+  -Psikologi
+
+table mahasiswa
+atribut
+1.nim char(11)pk
+2.nama varchar(50)
+3.alamat varchar(50)
+4.telp varchar(15)
+5.fakultas varchar(50)
+6.jurusan varchar(50)
+7.jenis kelamin varchar(10)
+8.agama varchar(10)
+
+refrensi
+http://bisakomputer.com/membuat-dropdown-list-bertingkat-dengan-jquery-ajax/
+https://editdikit.wordpress.com/2013/04/05/membuat-combobox-bertingkat-dan-terkoneksi-dengan-database-php-mysql/
+http://achmadfirmansyah123.blogspot.co.id/2014/06/cara-relasi-antar-table-dengan.html
+
+
+
