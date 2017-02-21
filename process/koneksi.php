@@ -2,8 +2,8 @@
 
 $host ='localhost';
 $user ='root';
-$pass ='resolusi123';
-$db   ='training';
+$pass ='';
+$db   ='';
 
 //buat koneksi
 $connect = new mysqli($host, $user, $pass, $db);
